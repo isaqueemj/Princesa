@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aviso 💬</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        // COLOQUE SEU NÚMERO AQUI
+        const numeroWhatsApp = "5545998236303";
+
+        const mensagem = "Oiiee! Eu sua princesa, amei seu presenteeeee";
+        const urlWhatsApp =
+            "https://wa.me/" + numeroWhatsApp + "?text=" + encodeURIComponent(mensagem);
+
+        // tempo em milissegundos (ex: 3000 = 3 segundos)
+        setTimeout(() => {
+            window.location.href = urlWhatsApp;
+        }, 5000);
+    </script>
+</head>
+<body>
+
+    <div class="aviso-container">
+        <h1>⚠️ Ainda não funciona</h1>
+        <p>
+            Essa função ainda está em desenvolvimento,
+            mas já vou te levar para um lugar especial 💖
+        </p>
+        <p class="small">Redirecionando para o WhatsApp...</p>
+    </div>
+
+</body>
+</html>

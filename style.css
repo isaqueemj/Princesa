@@ -1,0 +1,166 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: linear-gradient(to bottom, #FCE4EC, #E3F2FD);
+    color: #37474F;
+}
+
+/* HERO */
+.hero {
+    min-height: 100vh;
+    padding: 40px 20px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hero h1 {
+    font-size: 2.4rem;
+    color: #F48FB1;
+}
+
+.hero p {
+    font-size: 1.1rem;
+}
+
+.btn {
+    margin: 0 auto;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: #90CAF9;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #64B5F6;
+}
+
+/* CARDS */
+.card {
+    background-color: #ffffffcc;
+    margin: 20px;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+
+.card h2 {
+    color: #eda3bc;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.card h3 {
+    color: #F48FB1;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.card p {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* CARD DESTACADO */
+.destaque {
+    background-color: #FCE4EC;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: #607D8B;
+}
+
+.foto-redonda {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #F48FB1;
+    padding: 4px;
+    background-color: #fff;
+}
+
+.foto-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.mensagem-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.caixa-mensagem {
+    width: 100%;
+    padding: 15px;
+    border-radius: 15px;
+    border: 2px solid #F48FB1;
+    font-size: 1rem;
+    resize: none;
+    outline: none;
+    background-color: #FCE4EC;
+    color: #37474F;
+}
+
+.caixa-mensagem::placeholder {
+    color: #8E6E79;
+}
+
+.caixa-mensagem:focus {
+    border-color: #90CAF9;
+    box-shadow: 0 0 10px rgba(144, 202, 249, 0.4);
+}
+
+.mensagem-container .btn {
+    align-self: flex-end;
+}
+
+.aviso-container {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #FCE4EC, #E3F2FD);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.aviso-container h1 {
+    color: #F48FB1;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.aviso-container p {
+    font-size: 1.1rem;
+    max-width: 400px;
+}
+
+.aviso-container .small {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #607D8B;
+}
