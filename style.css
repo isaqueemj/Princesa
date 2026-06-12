@@ -164,3 +164,28 @@ footer {
     font-size: 0.9rem;
     color: #607D8B;
 }
+
+.carta-namorados {
+    background: linear-gradient(135deg, #fff8fb, #fff);
+    border: 2px solid rgba(244, 143, 177, 0.3);
+}
+
+.carta-namorados h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.carta-namorados p {
+    white-space: pre-line;
+    line-height: 1.9;
+    font-size: 1.05rem;
+    text-align: justify;
+}
+
+.carta-namorados::before {
+    content: "❤️";
+    display: block;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
